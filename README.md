@@ -11,10 +11,6 @@
 ## 🧰 Tech Stack
 - Languages: Python, C++, JavaScript, R, ABAP
 - ML/DS: NumPy, Pandas, scikit-learn, PyTorch (learning)
-- Tools: Git, Linux, Docker (basics)
-
-## 📌 Featured Repositories
-- (Pin your best projects here once ready)
 
 ## 📫 Connect
 - LinkedIn: https://www.linkedin.com/in/yogeshkulkarni06/
