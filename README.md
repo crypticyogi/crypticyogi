@@ -3,10 +3,16 @@
 🎓 MSc Data Science & Artificial Intelligence @ Saarland University (UdS), Germany  
 💼 ex-SAP CI (Techno-functional) | Telecom Billing domain  
 
-## 🔭 What I'm working on
-- AI Search / Heuristics (C++)
-- Machine Learning foundations + projects (Python)
-- Statistics & modeling in R
+## Featured Projects
+- **Machine Learning From Scratch** — Linear/Logistic Regression + KNN with clean evaluation  
+  Repo: https://github.com/crypticyogi/ml-from-scratch
+
+- **Titanic Survival Prediction (Applied ML)** — baseline Logistic Regression vs Random Forest + metrics  
+  Repo: https://github.com/crypticyogi/titanic-survival-prediction
+
+- **TSF Task 2 (Clustering)** — Iris dataset clustering + visualization  
+  Repo: https://github.com/crypticyogi/TSF_Task_2
+
 
 ## 🧰 Tech Stack
 - Languages: Python, C++, JavaScript, R, ABAP
