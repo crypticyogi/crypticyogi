@@ -14,9 +14,10 @@
   Repo: https://github.com/crypticyogi/TSF_Task_2
 
 
-## 🧰 Tech Stack
+## Tech Stack
 - Languages: Python, C++, JavaScript, R, ABAP
 - ML/DS: NumPy, Pandas, scikit-learn, PyTorch (learning)
 
-## 📫 Connect
+## Connect
 - LinkedIn: https://www.linkedin.com/in/yogeshkulkarni06/
+- Portfolio: https://yogesh-kulkarni.lovable.app/
