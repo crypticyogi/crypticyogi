@@ -1,39 +1,66 @@
 # Yogesh Kulkarni
 
-**M.Sc. Data Science & Artificial Intelligence** · Saarland University, Germany  
-**3 years as SDE @ Jio Platforms (Reliance)** · SAP Billing & Enterprise Systems
+**M.Sc. Data Science & Artificial Intelligence** : Saarland University, Germany  
+Previously **3 years as SDE** at Jio Platforms (Reliance), building SAP billing systems at telecom scale.
+
+I like problems where the modelling has to survive contact with a real system — messy data, deployment constraints, someone depending on the output. Right now I'm most drawn to **trustworthy and adversarial ML**, and I'm looking for research assistant (HiWi) and working-student roles in Saarbrücken where I can go deeper on it.
 
 ---
 
-Building at the intersection of enterprise software engineering and machine learning.  
-Currently focused on: probabilistic ML, statistical learning theory, and applying ML to financial time series.
+## Selected Work
 
-## 🔬 What I'm Working On
+### 🔐 Trustworthy Machine Learning : CISPA, SS 2026
+Four attack-and-defense projects on the privacy, robustness, and IP properties of neural networks.
 
-- **Nifty Options Volatility Intelligence Platform** — Black-Scholes IV surface modeling, Greeks computation, GARCH volatility forecasting, and a PyTorch-based neural vol predictor. Deployed with FastAPI + Streamlit. *(coming soon)*
-- **ML From Scratch** — NumPy-only implementations of Linear/Logistic Regression and KNN, with evaluation pipelines and visualizations.  
-  → [crypticyogi/ml-from-scratch](https://github.com/crypticyogi/ml-from-scratch)
-
-## 📂 Selected Projects
-
-| Project | What It Demonstrates | Stack |
+| Task | What I built | Approach |
 |---|---|---|
-| [ml-from-scratch](https://github.com/crypticyogi/ml-from-scratch) | Gradient descent, loss functions, decision boundaries — no sklearn | Python, NumPy, Matplotlib |
-| [titanic-survival-prediction](https://github.com/crypticyogi/titanic-survival-prediction) | End-to-end pipeline: EDA → feature engineering → model comparison (LR vs RF) | scikit-learn, Pandas |
-| [TSF_Task_2](https://github.com/crypticyogi/TSF_Task_2) | Unsupervised clustering on Iris with K-Means + visual analysis | scikit-learn, Seaborn |
+| Membership Inference | Attack recovering whether a sample was in training data | LiRA with 16 shadow models + XGBoost meta-classifier |
+| Stolen Model Detection | Defense identifying stolen copies among 360 candidates | 9-signal ensemble: weight similarity, CKA, boundary probing |
+| Adversarial Robustness | Model hardened against unknown attacks | TRADES + PGD adversarial training |
+| Watermark Forgery | Attack forging invisible watermarks across 8 schemes | Multi-domain steganographic alignment |
 
-## 🛠 Tech Stack
+→ [MARKST-47/TML-26](https://github.com/MARKST-47/TML-26) · with [@MARKST-47](https://github.com/MARKST-47) · PyTorch, XGBoost, HPC (HTCondor)
 
-**ML & Data Science:** Python · NumPy · Pandas · scikit-learn · PyTorch *(active)* · R  
-**Software Engineering:** ABAP · SAP Convergent Invoicing · BAPIs/RFCs · IDocs · S/4HANA  
-**Tools:** Git · Linux · Jupyter · FastAPI · Streamlit · LaTeX
+---
 
-## 🏢 Industry Background
+### ✈️ Airline On-Time Performance Audit : SAP BTP
+An operational analytics platform over **12.3 million** US DOT flight records, from raw CSVs to a deployed cloud dashboard.
 
-Before grad school, I spent 3 years at **Jio Platforms Limited (Reliance Industries)** as an SDE working on SAP Convergent Invoicing — designing billing logic, ABAP programs, and integration workflows for one of the world's largest telecom billing systems (400M+ subscribers). This gives me a practical grounding in production-scale systems, data pipelines, and enterprise architecture that I now bring to my ML work.
+| Layer | What it does |
+|---|---|
+| Data | Streaming ETL + pre-computed aggregates — sub-second dashboards over 12M rows |
+| Classification | Composite carrier reliability score; surfaces airlines a single metric would flatter |
+| Analysis | Root-cause delay study — isolates the late-aircraft cascade peaking 17:00–19:00 |
+| AI | Grounded LLM summaries and management PDF reports via SAP AI Core |
 
-## 📫 Connect
+→ [SAPBTP_GROUP3_TOPIC3](https://github.com/MUHEB-ai/SAPBTP_GROUP3_TOPIC3) · *my parts: classification, association analysis, AI integration, PDF reporting, deployment* · SAP CAP, HANA Cloud, Fiori Elements, Node.js
+
+---
+
+### 📐 ML From Scratch
+Linear regression, logistic regression, and KNN in pure NumPy : gradient descent, loss surfaces, and decision boundaries implemented rather than imported.
+
+→ [crypticyogi/ml-from-scratch](https://github.com/crypticyogi/ml-from-scratch) · Python, NumPy, Matplotlib
+
+---
+
+## Background
+
+Before grad school I spent three years at Jio Platforms working on SAP Convergent Invoicing: billing logic, ABAP programs, and integration workflows for a system serving 400M+ subscribers. It taught me what production scale actually costs, and that's the perspective I bring to ML work now.
+
+---
+
+## Toolkit
+
+| | |
+|---|---|
+| **ML** | Python · PyTorch · scikit-learn · NumPy · Pandas · XGBoost |
+| **Enterprise** | ABAP · SAP Convergent Invoicing · SAP CAP/CDS · S/4HANA · BTP |
+| **Infra** | Git · Linux · Cloud Foundry · HANA · HTCondor · FastAPI · LaTeX |
+
+---
+
+## Get in touch
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yogesh_Kulkarni-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yogeshkulkarni06/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-yogesh--kulkarni.lovable.app-000?style=flat&logo=safari)](https://yogesh-kulkarni.lovable.app/)
-[![Email](https://img.shields.io/badge/Email-UdS_Mail-EA4335?style=flat&logo=gmail)](mailto:yoku00002@stud.uni-saarland.de)
+[![Email](https://img.shields.io/badge/Email-Saarland_University-EA4335?style=flat&logo=gmail)](mailto:yoku00002@stud.uni-saarland.de)
